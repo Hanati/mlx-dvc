@@ -1,0 +1,7 @@
+md5: 041a9f3f92c2d26763d127c8b2dada82
+outs:
+- md5: 98edad08135b1d91aa5703bd9228e345
+  path: basf_weekly.csv
+  cache: true
+  metric: false
+  persist: false
