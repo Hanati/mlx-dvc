@@ -1,0 +1,13 @@
+md5: 89fefd4355385bfc0b537cf9dcaf7d26
+cmd: python script/featureize.py --input_dir data/processed/ --output_dir data/features/
+deps:
+- md5: a17ec45f2e7d486340f9c2dacc3ccc25
+  path: script/featureize.py
+- md5: a2ce009022755ef3908231db56c1019a.dir
+  path: data/processed
+outs:
+- md5: 9bf4ebfe04fd8f64838fedc3dbbde543.dir
+  path: data/features
+  cache: true
+  metric: false
+  persist: false
