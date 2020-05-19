@@ -1,0 +1,13 @@
+md5: d6df4571b9ab95b5e60620e5412d472e
+cmd: python script/preprocess.py --input_file data/basf_weekly.csv --output_dir data/processed/
+deps:
+- md5: cf26ae3190dd99982ee2fe0afcd68eb2
+  path: script/preprocess.py
+- md5: 98edad08135b1d91aa5703bd9228e345
+  path: data/basf_weekly.csv
+outs:
+- md5: a2ce009022755ef3908231db56c1019a.dir
+  path: data/processed
+  cache: true
+  metric: false
+  persist: false
